@@ -6,7 +6,7 @@
 body{
     margin: 0;
 }
-#body{
+body{
     height:100%;
     background:rgba(245, 222, 179, 0.479)
 }
@@ -32,12 +32,13 @@ button{
 a, 
 span{
     color:white;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
     text-decoration: none;
 }
 a:hover{
-    color: #5c1865;
+    width: 120px;
+    color:#F29C50
 }
 .img2{
     height: 120vh;
@@ -288,11 +289,11 @@ form{
     margin-top: -150px;
 }
 .picture{
-    background: linear-gradient(to bottom, #5c1865e5, #5c1865b7), url('Assets/Screenshot_2022-09-02-09-56-42-814_com.android.chrome~2.jpg');
+    background: linear-gradient(to bottom, #5c1865e5, #5c1865b7), url('Assets/hc-violet.png');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     margin: auto; 
 }
@@ -341,28 +342,36 @@ label>img{
 .inscription-form{
     border: 1px solid transparent;
     box-shadow: 1px 0px 1px 1px;
-    margin: 30%auto;
+    margin: 30% auto;
     display: flex;
-    margin:10% 28% auto;
-    width: 75vh;
+    width: 800px;
+    height: 700px;
     border-radius: 20px;
+}
+.space{
+    width: 50%;
 }
 .image-cover{
     margin-left:5px
 }
 .image-cover img{
+    height: 700px;
     border-radius: 20px;
 } 
 .opacité{
     background:#6b0277ad;
-    width: 18.6%;
-    height: 600px;
+    width:16.5%;
+    height: 700px;
     position: absolute;
     margin-right: 55px;
     margin-left: 5px;
     border-radius: 20px;
 }
+.connexion{
+  width:15.5%;
+}
 .opacité img{
+   
     margin-top:85px;
     border-radius: 20px;
 }
@@ -370,13 +379,14 @@ label>img{
     border-radius: 20px;
 }
 .compte{
-    border-radius: 20px;
-    width: 300px;
+    margin-left: 30px;
+    border-radius: 2%0px;
+    width: 50%;
     background:#D9d9d9 ;
     padding-left: 5%;
     padding-right: 30px;
 }
-.inscription-input{
+.ininput{
     border: 1px solid #5c1865;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -390,16 +400,19 @@ label>img{
     margin-bottom: 30px;
 }
 .information{
+    margin-top: 50px;
     color: #5c1865;
     font-size: 20px;
     font-weight: bold;
 }
 .inscription-btn{
+    margin-top: 50px;
     width: 200px;
     border-radius: 10px;
 }
 .account{
-    margin-right: 10px;
+    width: 50%;
+    margin-right: 30px;
     padding-top: 100px;
 }
 .en-tête{
@@ -545,7 +558,7 @@ label>img{
     justify-content: space-between;
 }
 .stars{
-    width: 110px;
+    width: 120px;
     background: white;
     border-radius: 20px;
     margin-left: 10px;
@@ -581,8 +594,8 @@ label>img{
 }
 .big-container{
     display: flex;
-    margin-left: 180px;
-    margin-right: 50px;
+    margin-left: 300px;
+    margin-right: 100px;
     flex-wrap: wrap;
 }
 .big-container2{
@@ -590,10 +603,11 @@ label>img{
     margin-right: 50px;
 }
 .image-couverture img{
+    height: 700px;
     border-radius: 20px;
 }
 .space{
-    margin-left: 40px;
+   width: 50%;
 }
 .opac2{
     width:360px;

@@ -1,5 +1,5 @@
 <footer>
-    <div class="picture">
+        <div class="picture">
             <div class="pic-shape">
                 <div class="footer-text">
                     <h2 class="hc">H&C Location</h2>
@@ -9,15 +9,15 @@
                 <div class="in-pic-shape">
                     <div class="renseignement">
                         <div>
-                            <img src="location-dot-solid-2.png" alt="" width="20px">
+                            <img src="Assets/location-dot-solid-2.png" alt="" width="20px">
                             <span>Hédzranawoé,Lomé-Togo</span>
                         </div>
                         <div>
-                            <img src="envelope-regular.png" alt="" width="20px">
+                            <img src="Assets/envelope-regular.png" alt="" width="20px">
                             <span>mariettekotoklo@gmail.com</span>
                         </div>
                         <div>
-                            <img src="phone-solid.png" alt="" width="20px">
+                            <img src="Assets/phone-solid.png" alt="" width="20px">
                             <span>+228 90092703</span>
                         </div>
                     </div>
@@ -26,13 +26,13 @@
                             <img src="Assets/facebook-2.png" alt="" width="20px" height="20px">
                         </label>
                         <label>
-                            <img src=" Assets/linkedin.png" alt=""  width="20px" height="20px">
+                            <img src="Assets/linkedin.png" alt=""  width="20px" height="20px">
                         </label>
                         <label>
-                            <img src=" Assets/instagram-2.png" alt=""  width="20px" height="20px">
+                            <img src="Assets/instagram-2.png" alt=""  width="20px" height="20px">
                         </label>
                         <label>
-                            <img src=" Assets/twitter.png" alt="" width="20px" height="20px">
+                            <img src="Assets/twitter.png" alt="" width="20px" height="20px">
                         </label>
                     </div>
                 </div>
