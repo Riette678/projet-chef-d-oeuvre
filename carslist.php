@@ -48,7 +48,7 @@
                             </div>
                         </div>
                         <button class="search-btn4">Rechercher</button>
-                    </div>
+            </div>
                     
             <div  class="block">
                 <?php 
@@ -58,26 +58,27 @@
                         <img src="<?php echo $Cars["photo"]?>" alt="" width="100%" height="300px">
                     <!-- </div> -->
                   <div>
-                    <div class="cars-name"><?php echo $Cars["nom"]; ?></div>
-                    <div class="cars-name"><?php echo $Cars["prix"]; ?>/jr</div>
-                    <div class="indications">
-                        <div> <i class="fa-regular fa-user cars-icon"></i><?php echo $Cars["places"]; ?></div>
-                        <div> <i class="fa-solid fa-calendar-days  cars-icon"></i><?php echo $Cars["modele"]; ?> model</div>
-                        <div> <i class="fa-solid fa-car  cars-icon"></i><?php echo $Cars["genre"]; ?></div>
-                    </div>
-                    <button class="search-btn4">Réserver</button>
+                        <div class="cars-name"><?php echo $Cars["nom"]; ?></div>
+                        <div class="cars-name"><?php echo $Cars["prix"]; ?>/jr</div>
+                        <div class="indications">
+                            <div> <i class="fa-regular fa-user cars-icon"></i><?php echo $Cars["places"]; ?></div>
+                            <div> <i class="fa-solid fa-calendar-days  cars-icon"></i><?php echo $Cars["modele"]; ?> model</div>
+                            <div> <i class="fa-solid fa-car  cars-icon"></i><?php echo $Cars["genre"]; ?></div>
+                        </div>
+                        <button class="search-btn4">Réserver</button>
+                  </div>
                 </div>
-            </div>
-
+            
+   
 <!-- ====================================================== card bootstrap ================================== -->
-            <div class="card" style="width: 18rem;">
+            <!-- <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="<?php echo $Cars["photo"]?>" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title"><?php echo $Cars["nom"]; ?></h5>
                   <h5 class="card-title"><?php echo $Cars["prix"]; ?>/jr</h5>
                   <a href="#" class="btn btn-primary">Réserver</a>
                 </div>
-              </div>
+              </div> -->
 <!-- ====================================================== card bootstrap ================================== -->
                 <?php endforeach; ?> 
             </div>
